@@ -1,0 +1,23 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Control de versiones, IDE y archivos del sistema
+.git/
+.idea/
+.vscode/
+.DS_Store
+
+# Registros y artefactos locales
+*.log
+coverage/
+htmlcov/
